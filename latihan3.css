@@ -1,0 +1,84 @@
+
+/* Pengaturan seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef4ff;
+    color: #333333;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+/* Judul halaman */
+h1 {
+    text-align: center;
+    color: #1d4ed8;
+    margin-bottom: 25px;
+}
+
+/* Formulir */
+form {
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Label */
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Kolom input dan dropdown */
+input:not([type="checkbox"]),
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 7px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+    margin: 8px 5px 8px 0;
+    accent-color: #2563eb;
+}
+
+/* Jarak antarbagian */
+br + br {
+    line-height: 1.5;
+}
+
+/* Tombol Submit */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Efek saat kursor berada di tombol */
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Tampilan di layar kecil */
+@media (max-width: 480px) {
+    form {
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
